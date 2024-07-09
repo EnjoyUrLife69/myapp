@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/container_widget.dart';
 import 'package:myapp/news_container.dart';
+import 'package:myapp/row_column/biodata.dart';
+import 'package:myapp/row_column/latihan.dart';
+import 'package:myapp/row_column/row_widget.dart';
+import 'package:myapp/row_column/col_widget.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -15,11 +20,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Color.fromARGB(255, 255, 255, 255),
         appBar: AppBar(
-          title: Text('Belajar Flutter'),
+          title: Text('Biodata'),
           centerTitle: true,
           backgroundColor: Colors.greenAccent,
         ),
-        body: NewsContainer(),
+// Suggested code may be subject to a license. Learn more: ~LicenseLog:1353424602.
+        body: Biodata(),
       ),
     );
   }
