@@ -17,7 +17,7 @@ class Biodata extends StatelessWidget {
               margin: EdgeInsets.only(top: 20, left: 10, right: 10, bottom: 10),
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/img/meme.png'),
+                  image: AssetImage('assets/img/bisma.jpeg'),
                 ),
                 borderRadius: BorderRadius.circular(
                   8,
