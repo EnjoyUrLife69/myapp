@@ -17,7 +17,7 @@ class Biodata extends StatelessWidget {
               margin: EdgeInsets.only(top: 20, left: 10, right: 10, bottom: 10),
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: NetworkImage('https://i.insider.com/62c79a5d8045920019ae23c4?width=700'),
+                  image: AssetImage('assets/img/meme.png'),
                 ),
                 borderRadius: BorderRadius.circular(
                   8,
@@ -101,7 +101,8 @@ class Biodata extends StatelessWidget {
                   height: 50,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: NetworkImage('https://miro.medium.com/v2/resize:fit:1024/0*oUyjZH6_leRq64sQ.png'),
+                      image: NetworkImage(
+                          'https://miro.medium.com/v2/resize:fit:1024/0*oUyjZH6_leRq64sQ.png'),
                       fit: BoxFit.cover,
                     ),
                     borderRadius: BorderRadius.circular(8),
@@ -112,7 +113,8 @@ class Biodata extends StatelessWidget {
                   height: 50,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfU9KzpxhLSxhftiS_4RikknwZb_XSsGPMno_ok9toIISnIZ6aNgMw-CYe_mkRLAu4r_8&usqp=CAU'),
+                      image: NetworkImage(
+                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfU9KzpxhLSxhftiS_4RikknwZb_XSsGPMno_ok9toIISnIZ6aNgMw-CYe_mkRLAu4r_8&usqp=CAU'),
                       fit: BoxFit.cover,
                     ),
                     borderRadius: BorderRadius.circular(8),
@@ -123,7 +125,8 @@ class Biodata extends StatelessWidget {
                   height: 50,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkdDy1MPyAklifM98twCxSuRj7EVJPO0cmHg&s'),
+                      image: NetworkImage(
+                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkdDy1MPyAklifM98twCxSuRj7EVJPO0cmHg&s'),
                       fit: BoxFit.cover,
                     ),
                     borderRadius: BorderRadius.circular(8),

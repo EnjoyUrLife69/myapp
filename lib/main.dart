@@ -20,9 +20,14 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Color.fromARGB(255, 255, 255, 255),
         appBar: AppBar(
-          title: Text('Biodata'),
+          title: Text(
+            'BIODATA',
+            style: TextStyle(
+              fontWeight: FontWeight.w800,
+            ),
+          ),
           centerTitle: true,
-          backgroundColor: Colors.greenAccent,
+          backgroundColor: const Color.fromARGB(255, 179, 194, 187),
         ),
 // Suggested code may be subject to a license. Learn more: ~LicenseLog:1353424602.
         body: Biodata(),
